@@ -22,6 +22,7 @@ app.use(expressSession({
 		collection:'sessions'
 	})
 }));
+console.log(mongoose.connection);
 
 require('./routes')(app);
 module.exports = app;
