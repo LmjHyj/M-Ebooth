@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "supervisor -w ./app.js,./routes,./bin ./bin/www"
+    "start": "supervisor -w ./app.js,./routes,./bin ./bin/www "
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -18,6 +18,9 @@
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-stylus": "^2.5.0",
+    "nib": "^1.1.0",
     "supervisor": "^0.10.0"
   }
 }
