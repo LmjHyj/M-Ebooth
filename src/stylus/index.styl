@@ -1,6 +1,29 @@
-body
-	padding: 50px
-	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+@import "nib"
+@import "base"
 
-a
-	color #00B7F1
+.TopNav
+	display flex
+	background-color #3a3a3a
+	-webkit-font-smoothing antialiased
+	width 100%
+	section
+		display flex
+		align-items stretch
+	a
+		color #fff
+	.TopNav_item
+		position relative
+		display block
+		padding .5em 1em
+		font-size .875rem
+		font-weight lighter
+		line-height 4.5
+		cursor pointer
+		transition all .3s ease
+	.TopNav_container
+		max-width 1248px
+		width 100%
+		flex-wrap wrap
+		justify-content space-between
+		margin 0 auto
+		padding-right .5em

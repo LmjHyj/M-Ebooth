@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "forever":"forever start -l forever.log --append -o out.log -e err.log ./bin/www",
     "start": "supervisor -w ./app.js,./routes,./bin ./bin/www "
   },
   "dependencies": {
